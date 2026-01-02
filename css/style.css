@@ -1,3 +1,32 @@
-body{
+container{
     display: grid;
 }
+
+
+.item{
+    background-color: cyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 70px;
+    color: grey;
+    line-height: 1;
+    font-family: 'hobeaux-rococeaux-background', Helvetica;
+    font-weight: 200;
+    transition: all .3s ease;
+    
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 2fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    background-color: black;
+    height: 800px
+    
+}
+
+
