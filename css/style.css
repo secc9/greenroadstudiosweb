@@ -1,10 +1,30 @@
-container{
+
+body{
+    font-family: "Tahoma";
+}
+
+.grs{
+    margin: 10px;
     display: grid;
+    font-family: "Tahoma";
+    font-size: 110px;
+    justify-content: flex-start;
+
+}
+
+.grs a{
+    text-decoration: none;
+    color:  #D21FFF;
+}
+
+.grs a:hover{
+    text-decoration: none;
+    color:  #FFE78A
 }
 
 
 .item{
-    background-color: cyan;
+    background-color: #CCFFF5;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,15 +40,84 @@ container{
 
 
 
-.container{
+.home-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 2fr 2fr;
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
-    background-color: black;
-    height: 800px
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    background-color: white;
+    height: 800px;
+    margin: 50px;
     
 }
 
+.home-container a{
+    font-family: "Tahoma";
+    text-decoration: none;
+    color: #FFE78A;
+}
 
+.home-container a:hover{
+    color: #D21FFF;
+}
+
+
+.main-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 800px;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    margin: 50px;
+    
+}
+
+.main-container a{
+    text-decoration: none;
+}
+
+
+.digital-item-1{
+    font-size: 40px;
+}
+
+.digital-item-2{
+    font-size: 40px;
+}
+
+
+.nav-container{
+    display: flex;
+    background-color: lightgrey;
+    width: 350px;
+
+}
+
+.nav-container ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    
+}
+
+.nav-container a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    background-color: grey;
+    text-align: center;
+    font-weight: bolder;
+    height: 30px;
+    width: 80px;
+
+}
+
+.nav-container a:hover{
+    color:  #D21FFF;
+    background-color: #FFE78A;
+}
